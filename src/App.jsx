@@ -65,6 +65,7 @@ export default function App() {
     <main>
       <h1 className="sr-only">Age Calculator challenge on Frontend Mentor</h1>
       <section className="card">
+        <h2 className="sr-only">Calculator</h2>
         <form className="form" noValidate onSubmit={handleSubmit}>
           <div className="form-row">
             <Input
@@ -86,7 +87,7 @@ export default function App() {
             <Input
               label="year"
               placeholder="YYYY"
-              min=""
+              min={0}
               max={new Date().getFullYear()}
               value={year}
               onChange={setYear}
