@@ -103,7 +103,7 @@ export default function App() {
               <span className="number">{age.years}</span>
             ) : (
               <CountUp className="number" end={age.years} />
-            )}{" "}
+            )}
             years
           </span>
           <span className="result-row">
@@ -111,7 +111,7 @@ export default function App() {
               <span className="number">{age.months}</span>
             ) : (
               <CountUp className="number" end={age.months} />
-            )}{" "}
+            )}
             months
           </span>
           <span className="result-row">
@@ -119,7 +119,7 @@ export default function App() {
               <span className="number">{age.days}</span>
             ) : (
               <CountUp className="number" end={age.days} />
-            )}{" "}
+            )}
             days
           </span>
         </p>
