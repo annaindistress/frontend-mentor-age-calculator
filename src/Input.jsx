@@ -24,7 +24,6 @@ export default function Input({
         placeholder={placeholder}
         min={min}
         max={max}
-        step="date"
         value={value.value}
         onChange={(e) =>
           onChange((prev) => ({
